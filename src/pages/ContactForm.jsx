@@ -29,7 +29,7 @@ export default function LoginForm() {
         toast.error(response.data.error);
       } else {
         setData({ email: '', password: '' });
-        toast.success('Login successful. Welcome!');
+        toast.success(' Welcome!');
         setIsAuthenticated(true);
         navigate('/dashboard');
       }

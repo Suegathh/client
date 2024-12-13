@@ -20,7 +20,6 @@ function Dashboard() {
         <section className="dashboard-section">
           <h3>Recent Activities</h3>
           <p>Here you can find a summary of your recent activities.</p>
-          {/* Add recent activities details as needed */}
         </section>
       </main>
     </div>
